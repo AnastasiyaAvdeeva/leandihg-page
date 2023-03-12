@@ -170,6 +170,7 @@ align-items: center;
 display: flex;
 bottom: 6px;
 margin-bottom: 28px;
+margin-top: 36px;
 }
 
 .services__text {
@@ -228,17 +229,17 @@ margin-bottom: 28px;
 }
 
 .service__heading_manage::before {
-    content: url('../images/Shape\ sp-15719-1-1.png');
+    content: url('../images/manage-1.png');
 }
 
 .service__heading_ux::before {
-    content: url('../images/Shape\ sp-15722-0-3.png');
+    content: url('../images/ux-2.png');
 }
 
 .service__heading_logo::before {
-    content: url('../images/Shape\ sp-15729-0-2.png');
+    content: url('../images/logo-3.png');
 }
 
 .service__heading_ani::before {
-    content: url('../images/Shape\ sp-15734-1-1.png');
+    content: url('../images/ani-4.png');
 }
