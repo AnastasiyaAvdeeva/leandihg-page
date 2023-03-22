@@ -6,34 +6,181 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,200;400;500;700;1,300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
 
 <body class="page">
-    <div class="page-header page-header-grey">
+    <div class="page__header page__header_color">
         <header class="header">
-            <nav class="header-navigation">
-              <ul class="menu header-menu">  
-                <li class="menu-item">
-                    <a class="menu-link" href="#">Home</a>
+            <nav class="header__navigation">
+                <ul class="menu header__menu">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Portfolio</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">About as</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main class="main_content">
+        <div class="main__page page__header_color">
+            <section class="main main__section">
+                <div class="main__content_header">
+                    <h1 class="main__heading">
+                        our strong organaisation
+                    </h1>
+                    <p class="main__text">
+                        Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt
+                        ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.
+                    </p>
+                    <button class="main__action_button main__action_color" href="">Contact Us</button>
+                </div>
+                <iframe class="main__iframe_preview" src="https://www.youtube.com/embed/kw9sQ_39by4"
+                    title="arch linux user installing a web brower" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </section>
+        </div>
+        <section class="main__section services">
+            <div class="services__lead">
+                <h1 class="services__heading">do you know we can provide for you ?</h1>
+                <p class="services__text">
+                    Lorem ipsum dolor sit amet, consectetur adipis cing elit,
+                    sed do eiusmod tempor incididunt ut labore et.
+                    Lorem ni ipsum dolor sit amet, consectetur adipis cing elit,
+                    ed doi eiusmod tempor incididunt ut labore et.
+                </p>
+                <button class="main__action_button main__action_img" href="">Learn More</button>
+            </div>
+            <div class="services__blocks">
+                <section class="service">
+                    <h3 class="service__heading service__heading_manage">Management</h3>
+                    <p class="service__text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit,
+                        seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
+                </section>
+                <section class="service">
+                    <h3 class="service__heading service__heading_ux">UI /UX Design</h3>
+                    <p class="service__text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit,
+                        seddi do eiusmod btdempor in didunt utlae ore etioeew idolor sit amet,</p>
+                </section>
+                <section class="service">
+                    <h3 class="service__heading service__heading_logo">Logo / Branding</h3>
+                    <p class="service__text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit,
+                        seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor </p>
+                </section>
+                <section class="service">
+                    <h3 class="service__heading service__heading_ani">Animation</h3>
+                    <p class="service__text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit,
+                        seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor sit amet,</p>
+                </section>
+
+            </div>
+        </section>
+        <section class="main__section feature">
+            <div class="feature__header">
+                <h2 class="feature__title">
+                    feature products
+                </h2>
+                <p class="feature__subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipis cing elit,
+                    sed do eiusmod tempor incididunt ut labore et.
+                </p>
+                <hr class="header__line feature__line">
+            </div>
+            <ul class="products__filter">
+                <li class="products__item">
+                    <a class="products__link products__link_active" href="">
+                        All
+                    </a>
                 </li>
-                <li class="menu-item">
-                    <a class="menu-link" href="">Portfolio</a>
+                <li class="products__item">
+                    <a class="products__link" href="">
+                        print template
+                    </a>
                 </li>
-                <li class="menu-item">
-                    <a class="menu-link" href="">About as</a>
+                <li class="products__item">
+                    <a class="products__link" href="">
+                        web template
+                    </a>
                 </li>
-                <li class="menu-item">
-                    <a class="menu-link" href="">Contact</a>
+                <li class="products__item">
+                    <a class="products__link" href="">
+                        user interface
+                    </a>
+                </li>
+                <li class="products__item">
+                    <a class="products__link" href="">
+                        mock-up
+                    </a>
                 </li>
             </ul>
-            </nav>
+            <div class="products">
+                <img class="product" src="./images/work-1.jpg" alt="Изображения нет">
+                <img class="product" src="./images/work-2.jpg" alt="Изображения нет">
+                <img class="product" src="./images/work-3.jpg" alt="Изображения нет">
+                <img class="product" src="./images/work-4.jpg" alt="Изображения нет">
+                <img class="product" src="./images/work-5.jpg" alt="Изображения нет">
+                <img class="product" src="./images/work-6.jpg" alt="Изображения нет">
+                <img class="product" src="./images/work-7.jpg" alt="Изображения нет">
+                <img class="product" src="./images/work-8.jpg" alt="Изображения нет">
+            </div>
+        </section>
+        <section class="main__section team">
+            <div class="team__header">
+                <h2 class="team__heading section__heading" id="about">Meet our team</h2>
+                <p class="team__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit,
+                    sed dooing eiusmod tempor incididut labore Ui / Ux ,
+                    print template.</p>
+                <hr class="header__line team__line">
+            </div>
+            <div class="team__members">
+                <img class="team__selected-photo" src="./images/photo.png" alt="Фотография сотрудника">
+                <div class="team__selected-content">
+                    <div class="team__selected-info">
+                        <span class="team__selected-name">mark waugh</span>
+                        <p class="team__selected-about">Lorem ipsum dolor sit amet, consectetur adipis cing elit,
+                            sed dooing eiusmod tempor incididut labore Ui / Ux ,
+                            print template.</p>
+                        <div class="team__selected-links">
+                            <a class="team__selected-links" href="">Facebook</a>
+                            <a class="team__selected-links" href="">Dribble</a>
+                            <a class="team__selected-links" href="">Behance</a>
+                            <a class="team__selected-links" href="">Twiter</a>
+                        </div>
+                    </div>
+                    <section class="members">
+                        <div class="member">
+                            <h3 class="member__name">sokina jue</h3>
+                            <img class="member__photo" src="./images/photo.png" alt="Фотография сотрудника">
+                        </div>
+                        <div class="member">
+                            <h3 class="member__name">sokina jue</h3>
+                            <img class="member__photo" src="./images/photo.png" alt="Фотография сотрудника">
+                        </div>
+                        <div class="member">
+                            <h3 class="member__name">sokina jue</h3>
+                            <img class="member__photo" src="./images/photo.png" alt="Фотография сотрудника">
+                        </div>
+                        <div class="member">
+                            <h3 class="member__name">sokina jue</h3>
+                            <img class="member__photo" src="./images/photo.png" alt="Фотография сотрудника">
+                        </div>
+                    </section>
 
-        </header>
-
-    </div>
-
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
