@@ -1,6 +1,6 @@
-html {
+/*html {
     font-family: 'OpenSans', sans-serif;
-}
+}*/
 
 
 .page {
@@ -9,6 +9,7 @@ html {
     font-size: 16px;
     display: flex;
     flex-direction: column;
+    font-family: 'OpenSans', Arial, Helvetica, sans-serif;
 
 }
 
@@ -441,6 +442,7 @@ html {
     font-style: italic;
     text-decoration: none;
     margin-right: 30px;
+    
 }
 
 .team__selected-links:hover {
@@ -494,4 +496,72 @@ html {
     height: 218px;
     background-color: #C0C0C0;    
     margin-top: 60px;
+}
+
+.subscription {
+    
+    margin-top: 80px;
+    background-color: #2D2D2D;
+    width: 100%;
+    max-width: 1579px;
+    height: 516px;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    padding-bottom: 124px;
+    padding-top: 140px;
+
+}
+
+.subscription__header {
+    margin: 0 auto;
+}
+
+.subscription__text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 24px;
+    letter-spacing: 1.05px;
+}
+
+.subscription__text-header {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    
+}
+
+.subscription__form {
+    margin-top: 50px;
+    
+}
+
+.subscription__form-email {
+    width: 524px;
+    height: 82px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color:#2C2C2C;
+    padding-left: 30px;
+    
+    
+}
+
+
+.subscription__form-button {
+    width: 217px;
+    height: 82px;
+    border-radius: 6px;
+    margin-left: 30px;
+    background-color: #FF2D2D;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17.9026px;
+    line-height: 34px;
 }
