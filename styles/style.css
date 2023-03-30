@@ -288,7 +288,7 @@
 .header__line {
     background-color: #FF2D2D;
     width: 105px;
-    height: 4px;
+    height: 2px;
 }
 
 .products__filter {
@@ -361,6 +361,7 @@
     line-height: 28px;
     max-width: 480px;
     margin-bottom: 30px;
+    margin-top: 20px;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -396,7 +397,7 @@
     justify-content: space-between;
 }
 
-@supports (display: grid;) and (display: contents;) {
+@supports (display: grid; ) and (display: contents; ) {
     .team__members {
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -436,13 +437,13 @@
 }
 
 .team__selected-links {
-    color:#000;
+    color: #000;
     font-size: 18px;
     line-height: 24px;
     font-style: italic;
     text-decoration: none;
     margin-right: 30px;
-    
+
 }
 
 .team__selected-links:hover {
@@ -486,7 +487,7 @@
 
 }
 
-.member:hover > .member__name {
+.member:hover>.member__name {
     visibility: visible;
 }
 
@@ -494,12 +495,12 @@
     display: block;
     width: 198px;
     height: 218px;
-    background-color: #C0C0C0;    
+    background-color: #C0C0C0;
     margin-top: 60px;
 }
 
 .subscription {
-    
+
     margin-top: 80px;
     background-color: #2D2D2D;
     width: 100%;
@@ -530,12 +531,12 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    
+
 }
 
 .subscription__form {
     margin-top: 50px;
-    
+
 }
 
 .subscription__form-email {
@@ -546,10 +547,10 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.4px;
-    color:#2C2C2C;
+    color: #2C2C2C;
     padding-left: 30px;
-    
-    
+
+
 }
 
 
@@ -559,9 +560,166 @@
     border-radius: 6px;
     margin-left: 30px;
     background-color: #FF2D2D;
-    color:#FFFFFF;
+    color: #FFFFFF;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 17.9026px;
+    font-size: 18px;
     line-height: 34px;
 }
+
+/*message*/
+
+.message__contacts {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 92px;
+    
+   
+}
+
+.message__contacts::after {
+    height: 100%;
+    background-color: #2D2D2D;
+}
+
+.message {
+    margin-top: 70px;
+    margin-left: 230px;
+    
+}
+
+.team__header {
+    margin-bottom: 34px;
+
+}
+
+.team__heading {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.message__text {
+    font-weight: 400;
+    max-width: 750px;
+    line-height: 28px;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-right: 121px;
+}
+
+
+.message__body {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 750px;
+    margin-right: 106px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.message__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.message__input {
+    color:#000;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    padding-right: 54px;
+    border: none;
+    border-radius: 5px;
+}
+
+.message__name,
+.message__mail {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    width: 338px;
+    height: 68px;
+    background-color: #F2F2F2;
+    padding-left: 50px;
+    margin-left: 0px;
+    margin-right: 17px;
+    margin-top: 36px;
+}
+
+.message__textarea {
+    resize: none;
+    font-size: 16px;
+    width: 100%;
+    max-width: 734px;
+    height: 252px;
+    box-sizing: border-box;
+    margin-bottom: 44px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    margin-top: 44px;
+    padding-top: 32px;
+    padding-left: 50px;
+    box-shadow: 2px 6px 1px 2px #dcdcdc;
+} 
+
+
+.message__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 732px;
+    height: 74px;
+    color:#fff;
+    background-color: #FF2D2D;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    border: none;
+}
+
+.contacts {
+   
+    box-sizing: border-box;
+    position: relative;
+    background-color: #2D2D2D;
+    padding: 126px 56px 126px 83px;
+    min-width: 450px;
+    min-height: 320px;
+    color:#fff;
+   
+    
+}
+    
+
+.contacts__heading {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 34px;
+    
+}
+
+.contacts__address {
+    line-height: 28px;
+}
+
+.contacts__line {
+    margin: 0;
+    line-height: 34px;
+    margin-bottom: 27px;
+}
+
