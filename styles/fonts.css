@@ -10,7 +10,7 @@
     font-family: 'Open Sans';
     src: url(../fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Italic.ttf) format('truetype');
     font-weight: 600;
-    font-style: normal;
+    font-style: italic;
 }
 
 @font-face {
