@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,200;400;500;700;1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
 </head>
 
 <body class="page">
@@ -34,7 +35,7 @@
     </div>
     <main class="main_content">
         <div class="main__page page__header_color">
-            <section class="main main__section">
+            <section class="main section">
                 <div class="main__content_header">
                     <h1 class="main__heading">
                         our strong organaisation
@@ -43,15 +44,13 @@
                         Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt
                         ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.
                     </p>
-                    <button class="main__action_button main__action_color" href="">Contact Us</button>
+                    <button class="button main__action-button" href="">
+                        Contact Us</button>
                 </div>
-                <iframe class="main__iframe_preview" src="https://www.youtube.com/embed/kw9sQ_39by4"
-                    title="arch linux user installing a web brower" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                <iframe class="main__iframe_preview" src="https://www.youtube.com/embed/kw9sQ_39by4" allowfullscreen></iframe>
             </section>
         </div>
-        <section class="main__section services">
+        <section class="section services">
             <div class="services__lead">
                 <h1 class="services__heading">do you know we can provide for you ?</h1>
                 <p class="services__text">
@@ -60,33 +59,33 @@
                     Lorem ni ipsum dolor sit amet, consectetur adipis cing elit,
                     ed doi eiusmod tempor incididunt ut labore et.
                 </p>
-                <button class="main__action_button main__action_img" href="">Learn More</button>
+                <button class="button services__action-button" href="">Learn More</button>
             </div>
             <div class="services__blocks">
                 <section class="service">
-                    <h3 class="service__heading service__heading_manage">Management</h3>
+                    <h3 class="service__heading service__heading-manage">Management</h3>
                     <p class="service__text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit,
                         seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor</p>
                 </section>
                 <section class="service">
-                    <h3 class="service__heading service__heading_ux">UI /UX Design</h3>
+                    <h3 class="service__heading service__heading-ux">UI /UX Design</h3>
                     <p class="service__text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit,
                         seddi do eiusmod btdempor in didunt utlae ore etioeew idolor sit amet,</p>
                 </section>
                 <section class="service">
-                    <h3 class="service__heading service__heading_logo">Logo / Branding</h3>
+                    <h3 class="service__heading service__heading-logo">Logo / Branding</h3>
                     <p class="service__text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit,
                         seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor </p>
                 </section>
                 <section class="service">
-                    <h3 class="service__heading service__heading_ani">Animation</h3>
+                    <h3 class="service__heading service__heading-ani">Animation</h3>
                     <p class="service__text">Lorem ipsum dolor sitea amet, zixf conseit adipi cing elit,
                         seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new idolor sit amet,</p>
                 </section>
 
             </div>
         </section>
-        <section class="main__section feature">
+        <section class="section feature">
             <div class="feature__header">
                 <h2 class="feature__title">
                     feature products
@@ -135,7 +134,7 @@
                 <img class="product" src="./images/work-8.jpg" alt="Изображения нет">
             </div>
         </section>
-        <section class="main__section team">
+        <section class="section team">
             <div class="team__header">
                 <h2 class="team__heading section__heading" id="about">Meet our team</h2>
                 <p class="team__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit,
@@ -180,7 +179,71 @@
                 </div>
             </div>
         </section>
+        <section class="section subscription">
+            <div class="subscription__header">
+                <h2 class="subscription__text">Design tips, tricks, and freebies. Delivered weekly.</h2>
+                <p class="subscription__text-header">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do
+                    eiusmod.</p>
+                <form class="subscription__form">
+                    <input class="subscription__form-email" type="email" name="email" placeholder="Email Adress..."
+                        required>
+                    <button class="subscription__form-button" type="submit">subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="message__contacts">
+            <div class="message__left-box">
+            <section class="message">
+                <div class="message__header">
+                    <h2 class="message__heading section__heading">get in touch</h2>
+                    <p class="message__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
+                        tempor incididunt ut labore et.
+                        ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.
+                        ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                    <hr class="header__line team__line">
+                </div>
+                <section class="message__body">
+                    <form class="message__form">
+                        <input class="message__input message__name" type="text" name="name" placeholder="Name" required>
+                        <input class="message__input message__mail" type="email" name="email" placeholder="Your Mail"
+                            required>
+                        <textarea class="message__input message__textarea" type="text" name="text" cols="30" rows="5"
+                            placeholder="Type your message"></textarea>
+                        <button class="message__button" type="submit">Send message</button>
+                    </form>
+                </section>
+            </section></div>
+            <div class="message__right-box contacts__decoration">
+            <section class="contacts">
+                <h3 class="contacts__heading">contact info</h3>
+                <address class="contacts__address">
+                    <p class="contacts__paragraph">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
+                    <p class="contacts__paragraph">redwan@deviserweb.com</p>
+                    <p class="contacts__paragraph">(+88) 017 617 46373</p>
+                </address>
+            </section>
+        </div>
+        </div>
     </main>
+    <footer class="footer">
+        <div class="footer__info section">
+            <p class="footer__text">
+                &#169;Copyright @Junaed 2016, All rights reserved.
+            </p>
+            <div class="footer__logo">
+                <a class="footer__social-logo" href=""><img class=""
+                        src="./images/1468368398_Twitter_Rounded_Solid 2.png" alt="Twitter"></a>
+                <a class="footer__social-logo" href=""><img class=""
+                        src="./images/1468368407_LinkedIn_Rounded_Solid.svg" alt="LinkedIn"></a>
+                <a class="footer__social-logo" href=""><img class=""
+                        src="./images/1468368412_Google_Rounded_Solid 2.png" alt="Google"></a>
+                <a class="footer__social-logo" href=""><img class=""
+                        src="./images/1468368389_Facebook_Rounded_Solid.svg" alt="Facebook"></a>
+            </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>
