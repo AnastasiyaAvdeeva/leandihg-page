@@ -10,8 +10,9 @@
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/fonts.css">
+    <script async src="./js/index.js"></script>
 </head>
-
+ 
 <body class="page">
     <div class="page__header page__header_color">
         <header class="header">
@@ -21,15 +22,33 @@
                         <a class="menu__link" href="#">Home</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="">Portfolio</a>
+                        <a class="menu__link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="">About as</a>
+                        <a class="menu__link" href="#aboutus">About us</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="">Contact</a>
+                        <a class="menu__link" href="#contacts">Contact</a>
                     </li>
                 </ul>
+                <div class="header__popup-menu">
+                    <button class="header__popup-button"><img class="header__popup-img" src="./images/icons8-верхнее-меню-96.png"></button>
+                    <ul class="header__popup-page hide-popup">
+                        <li class="header__popup-item">
+                            <a class="header__popup-link" href="#">Home</a>
+                        </li>
+                        <li class="header__popup-item">
+                            <a class="header__popup-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="header__popup-item">
+                            <a class="header__popup-link" href="#aboutus">About us</a>
+                        </li>
+                        <li class="header__popup-item">
+                            <a class="header__popup-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
             </nav>
         </header>
     </div>
@@ -85,7 +104,7 @@
 
             </div>
         </section>
-        <section class="section feature">
+        <section class="section feature" id="portfolio">
             <div class="feature__header">
                 <h2 class="feature__title">
                     feature products
@@ -134,7 +153,7 @@
                 <img class="product" src="./images/work-8.jpg" alt="Изображения нет">
             </div>
         </section>
-        <section class="section team">
+        <section class="section team" id="aboutus">
             <div class="team__header">
                 <h2 class="team__heading section__heading" id="about">Meet our team</h2>
                 <p class="team__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit,
@@ -143,7 +162,7 @@
                 <hr class="header__line team__line">
             </div>
             <div class="team__members">
-                <img class="team__selected-photo" src="./images/photo.png" alt="Фотография сотрудника">
+                <img class="team__selected-photo" src="./images/3d-business-man-playing-dress-up-with-pet-dog.png" alt="Фотография сотрудника">
                 <div class="team__selected-content">
                     <div class="team__selected-info">
                         <span class="team__selected-name">mark waugh</span>
@@ -160,19 +179,19 @@
                     <section class="members">
                         <div class="member">
                             <h3 class="member__name">sokina jue</h3>
-                            <img class="member__photo" src="./images/photo.png" alt="Фотография сотрудника">
+                            <img class="member__photo" src="./images/casual-life-3d-three-quarter-back-view-standing-with-dog.png" alt="Фотография сотрудника">
                         </div>
                         <div class="member">
                             <h3 class="member__name">sokina jue</h3>
-                            <img class="member__photo" src="./images/photo.png" alt="Фотография сотрудника">
+                            <img class="member__photo" src="./images/casual-life-3d-young-woman-sitting-on-ground-and-petting-dog.png" alt="Фотография сотрудника">
                         </div>
                         <div class="member">
                             <h3 class="member__name">sokina jue</h3>
-                            <img class="member__photo" src="./images/photo.png" alt="Фотография сотрудника">
+                            <img class="member__photo" src="./images/business-3d-young-woman-in-glasses-sitting-next-to-dog-in-sweater-and-taking-photo.png" alt="Фотография сотрудника">
                         </div>
                         <div class="member">
                             <h3 class="member__name">sokina jue</h3>
-                            <img class="member__photo" src="./images/photo.png" alt="Фотография сотрудника">
+                            <img class="member__photo" src="./images/casual-life-3d-young-woman-walking-dog-on-leash-and-holding-drink.png" alt="Фотография сотрудника">
                         </div>
                     </section>
 
@@ -215,7 +234,7 @@
                 </section>
             </section></div>
             <div class="message__right-box contacts__decoration">
-            <section class="contacts">
+            <section class="contacts" id="contacts">
                 <h3 class="contacts__heading">contact info</h3>
                 <address class="contacts__address">
                     <p class="contacts__paragraph">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
@@ -232,13 +251,13 @@
                 &#169;Copyright @Junaed 2016, All rights reserved.
             </p>
             <div class="footer__logo">
-                <a class="footer__social-logo" href=""><img class=""
+                <a class="footer__social-logo" href="https://www.google.com/"><img class=""
                         src="./images/1468368398_Twitter_Rounded_Solid 2.png" alt="Twitter"></a>
-                <a class="footer__social-logo" href=""><img class=""
+                <a class="footer__social-logo" href="https://www.google.com/"><img class=""
                         src="./images/1468368407_LinkedIn_Rounded_Solid.svg" alt="LinkedIn"></a>
-                <a class="footer__social-logo" href=""><img class=""
+                <a class="footer__social-logo" href="https://www.google.com/"><img class=""
                         src="./images/1468368412_Google_Rounded_Solid 2.png" alt="Google"></a>
-                <a class="footer__social-logo" href=""><img class=""
+                <a class="footer__social-logo" href="https://www.google.com/"><img class=""
                         src="./images/1468368389_Facebook_Rounded_Solid.svg" alt="Facebook"></a>
             </div>
         </div>
