@@ -4,11 +4,18 @@ const popupButton = document.querySelector('.header__popup-button');
 const popupWrapper = document.querySelector('.header__popup-menu');
 const popupMenu = document.querySelector('.header__popup-page');
 
+console.log(popupButton);
+console.log(popupMenu);
+
+
 popupButton.addEventListener('click', handleMenu);
 
 function handleMenu() {
+
+    console.log ();
+
     popupMenu.classList.toggle('hide-popup');
-}
+};
 
 document.addEventListener('click', hidePopup);
 
@@ -21,4 +28,4 @@ function hidePopup(el) {
     else {
         return;
     }
-}
+};

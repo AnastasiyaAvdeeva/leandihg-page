@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <title>Landing</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,200;400;500;700;1,300&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/fonts.css">
-    <script async src="./js/index.js"></script>
+    <script async src="js/index.js"></script>
 </head>
- 
+
 <body class="page">
     <div class="page__header page__header_color">
         <header class="header">
@@ -32,7 +29,8 @@
                     </li>
                 </ul>
                 <div class="header__popup-menu">
-                    <button class="header__popup-button"><img class="header__popup-img" src="./images/icons-home.png"></button>
+                    <button class="header__popup-button"><img class="header__popup-img" src="./images/icons-home.png"
+                            alt="Изображения нет"></button>
                     <ul class="header__popup-page hide-popup">
                         <li class="header__popup-item">
                             <a class="header__popup-link" href="#">Home</a>
@@ -63,10 +61,11 @@
                         Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt
                         ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.
                     </p>
-                    <button class="button main__action-button" href="">
+                    <button class="button main__action-button">
                         Contact Us</button>
                 </div>
-                <iframe class="main__iframe_preview" src="https://www.youtube.com/embed/kw9sQ_39by4" allowfullscreen></iframe>
+                <iframe class="main__iframe_preview" src="https://www.youtube.com/embed/0v7pdd4za6s"
+                    allowfullscreen></iframe>
             </section>
         </div>
         <section class="section services">
@@ -78,7 +77,7 @@
                     Lorem ni ipsum dolor sit amet, consectetur adipis cing elit,
                     ed doi eiusmod tempor incididunt ut labore et.
                 </p>
-                <button class="button services__action-button" href="">Learn More</button>
+                <button class="button services__action-button">Learn More</button>
             </div>
             <div class="services__blocks">
                 <section class="service">
@@ -162,7 +161,8 @@
                 <hr class="header__line team__line">
             </div>
             <div class="team__members">
-                <img class="team__selected-photo" src="./images/3d-business-man-playing-dress-up-with-pet-dog.png" alt="Фотография сотрудника">
+                <img class="team__selected-photo" src="./images/3d-business-man-playing-dress-up-with-pet-dog.png"
+                    alt="Фотография сотрудника">
                 <div class="team__selected-content">
                     <div class="team__selected-info">
                         <span class="team__selected-name">mark waugh</span>
@@ -177,22 +177,30 @@
                         </div>
                     </div>
                     <section class="members">
-                        <div class="member">
+                        <section class="member">
+                            <h3 class="member__name">Avdeeva Ana</h3>
+                            <img class="member__photo"
+                                src="./images/casual-life-3d-three-quarter-back-view-standing-with-dog.png"
+                                alt="Фотография сотрудника">
+                            </section>
+                                <section class="member">
+                            <h3 class="member__name">Fomina Ira</h3>
+                            <img class="member__photo"
+                                src="./images/casual-life-3d-young-woman-sitting-on-ground-and-petting-dog.png"
+                                alt="Фотография сотрудника">
+                            </section>
+                                <section class="member">
+                            <h3 class="member__name">Ivanov Nykolai</h3>
+                            <img class="member__photo"
+                                src="./images/business-3d-young-woman-in-glasses-sitting-next-to-dog-in-sweater-and-taking-photo.png"
+                                alt="Фотография сотрудника">
+                            </section>
+                                <section class="member">
                             <h3 class="member__name">sokina jue</h3>
-                            <img class="member__photo" src="./images/casual-life-3d-three-quarter-back-view-standing-with-dog.png" alt="Фотография сотрудника">
-                        </div>
-                        <div class="member">
-                            <h3 class="member__name">sokina jue</h3>
-                            <img class="member__photo" src="./images/casual-life-3d-young-woman-sitting-on-ground-and-petting-dog.png" alt="Фотография сотрудника">
-                        </div>
-                        <div class="member">
-                            <h3 class="member__name">sokina jue</h3>
-                            <img class="member__photo" src="./images/business-3d-young-woman-in-glasses-sitting-next-to-dog-in-sweater-and-taking-photo.png" alt="Фотография сотрудника">
-                        </div>
-                        <div class="member">
-                            <h3 class="member__name">sokina jue</h3>
-                            <img class="member__photo" src="./images/casual-life-3d-young-woman-walking-dog-on-leash-and-holding-drink.png" alt="Фотография сотрудника">
-                        </div>
+                            <img class="member__photo"
+                                src="./images/casual-life-3d-young-woman-walking-dog-on-leash-and-holding-drink.png"
+                                alt="Фотография сотрудника">
+                            </section>
                     </section>
 
                 </div>
@@ -203,7 +211,7 @@
                 <h2 class="subscription__text">Design tips, tricks, and freebies. Delivered weekly.</h2>
                 <p class="subscription__text-header">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do
                     eiusmod.</p>
-                <form class="subscription__form">
+                <form class="subscription__form" method="get">
                     <input class="subscription__form-email" type="email" name="email" placeholder="Email Adress..."
                         required>
                     <button class="subscription__form-button" type="submit">subscribe</button>
@@ -211,38 +219,41 @@
             </div>
         </section>
 
-        <div class="message__contacts">
-            <div class="message__left-box">
-            <section class="message">
-                <div class="message__header">
-                    <h2 class="message__heading section__heading">get in touch</h2>
-                    <p class="message__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod
-                        tempor incididunt ut labore et.
-                        ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.
-                        ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                    <hr class="header__line team__line">
-                </div>
-                <section class="message__body">
-                    <form class="message__form">
-                        <input class="message__input message__name" type="text" name="name" placeholder="Name" required>
-                        <input class="message__input message__mail" type="email" name="email" placeholder="Your Mail"
-                            required>
-                        <textarea class="message__input message__textarea" type="text" name="text" cols="30" rows="5"
-                            placeholder="Type your message"></textarea>
-                        <button class="message__button" type="submit">Send message</button>
-                    </form>
+        <div class="message__contacts section">
+           
+                <section class="message">
+                    <div class="message__header">
+                        <h2 class="message__heading section__heading">get in touch</h2>
+                        <p class="message__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do
+                            eiusmod
+                            tempor incididunt ut labore et.
+                            ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.
+                            ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                        <hr class="header__line team__line">
+                    </div>
+                    <section class="message__body">
+                        <form class="message__form">
+                            <input class="message__input message__name" type="text" name="name" placeholder="Name"
+                                required>
+                            <input class="message__input message__mail" type="email" name="email"
+                                placeholder="Your Mail" required>
+                            <textarea class="message__input message__textarea" name="text" cols="30"
+                                rows="5">Type your message</textarea>
+                            <button class="message__button" type="submit">Send message</button>
+                        </form>
+                    </section>
                 </section>
-            </section></div>
-            <div class="message__right-box contacts__decoration">
-            <section class="contacts" id="contacts">
-                <h3 class="contacts__heading">contact info</h3>
-                <address class="contacts__address">
-                    <p class="contacts__paragraph">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
-                    <p class="contacts__paragraph">redwan@deviserweb.com</p>
-                    <p class="contacts__paragraph">(+88) 017 617 46373</p>
-                </address>
-            </section>
-        </div>
+            
+            <div class="message__contacts-box section">
+                <section class="contacts" id="contacts">
+                    <h3 class="contacts__heading">contact info</h3>
+                    <address class="contacts__address">
+                        <p class="contacts__paragraph">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
+                        <p class="contacts__paragraph">redwan@deviserweb.com</p>
+                        <p class="contacts__paragraph">(+88) 017 617 46373</p>
+                    </address>
+                </section>
+            </div>
         </div>
     </main>
     <footer class="footer">
@@ -251,13 +262,13 @@
                 &#169;Copyright @Junaed 2016, All rights reserved.
             </p>
             <div class="footer__logo">
-                <a class="footer__social-logo" href="https://www.google.com/"><img class=""
-                        src="./images/1468368398_Twitter_Rounded_Solid 2.png" alt="Twitter"></a>
-                <a class="footer__social-logo" href="https://www.google.com/"><img class=""
+                <a class="footer__social-logo" href="https://www.google.com/"><img src="./images/1468368398_Twitter.png"
+                        alt="Twitter"></a>
+                <a class="footer__social-logo" href="https://www.google.com/"><img
                         src="./images/1468368407_LinkedIn_Rounded_Solid.svg" alt="LinkedIn"></a>
-                <a class="footer__social-logo" href="https://www.google.com/"><img class=""
-                        src="./images/1468368412_Google_Rounded_Solid 2.png" alt="Google"></a>
-                <a class="footer__social-logo" href="https://www.google.com/"><img class=""
+                <a class="footer__social-logo" href="https://www.google.com/"><img src="./images/1468368412_Google.png"
+                        alt="Google"></a>
+                <a class="footer__social-logo" href="https://www.google.com/"><img
                         src="./images/1468368389_Facebook_Rounded_Solid.svg" alt="Facebook"></a>
             </div>
         </div>
