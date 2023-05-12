@@ -183,6 +183,10 @@ html,body {
     padding-top: 36px;
 }
 
+.page__color {
+    background-color: #F6F2F2;
+}
+
 /*home*/
 
 .main__heading {
@@ -579,6 +583,10 @@ html,body {
     padding-bottom: 124px;
     padding-top: 140px;
 
+}
+
+.subscription__color {
+    background-color: #2D2D2D;
 }
 
 .subscription__header {
