@@ -36,13 +36,8 @@
     --color-primary-grey2: #2C2C2C;
 }
 
-html,body {
-    overflow-x: hidden;
-}
 
 /*общие классы*/
-
-
 
 .button {
 
@@ -61,6 +56,7 @@ html,body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    width: 100%;
     max-width: 1250px;
     margin: 0 auto;
     padding-left: 1vw;
@@ -69,8 +65,9 @@ html,body {
 }
 
 .page {
-
-    margin: 0;
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -842,6 +839,11 @@ html,body {
 
 @media screen and (max-width: 1286px) {
 
+    .page {
+        width: 100%;
+        max-width: 100%;
+    }
+
     .main {
         flex-wrap: nowrap;
     }
@@ -911,6 +913,11 @@ html,body {
 
 @media screen and (max-width: 908px) {
 
+    .page {
+        width: 100%;
+        max-width: 100%;
+    }
+
     .services__lead,
     .services__blocks {
         max-width: 100%;
@@ -923,6 +930,13 @@ html,body {
 }
 
 @media screen and (max-width: 855px) {
+
+    .page {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
     .header {
         max-width: 100%;
     }
@@ -967,6 +981,12 @@ html,body {
 }
 
 @media screen and (max-width: 800px) {
+
+    .page {
+        width: 100%;
+        max-width: 100%;
+    }
+
 
     .header__popup-button {
         display: block;
@@ -1074,6 +1094,12 @@ html,body {
 
 @media screen and (max-width: 750px) {
 
+    .page {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
     .message__name,
     .message__mail,
     .message__textarea {
@@ -1087,6 +1113,12 @@ html,body {
 }
 
 @media screen and (max-width: 700px) {
+
+    .page {
+        width: 100%;
+        max-width: 100%;
+    }
+
 
     .section {
         max-width: 100%;
@@ -1152,6 +1184,13 @@ html,body {
 }
 
 @media screen and (max-width: 600px) {
+
+    .page {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
     .header__popup-button {
         display: block;
     }
@@ -1196,6 +1235,12 @@ html,body {
 
 
     @media screen and (max-width: 350px) {
+
+    .page {
+            width: 100%;
+            max-width: 100%;
+        }
+    
     .main_content {
         padding: 16px 16px 0;
         flex-direction: column;
@@ -1243,13 +1288,19 @@ html,body {
     .contacts {
         display: block;
         width: 100%;
-       /* padding: 20%;*/
+       
     }
 
 
 }
 
     @media screen and (min-width: 350px) {
+
+    .page {
+            width: 100%;
+            max-width: 100%;
+        }
+    
 
     .subscription__form-button {
         margin-left: 0;
